@@ -3,9 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { MenuIcon } from 'lucide-react';
-import Search from './search';
 import Menu from './menu';
 import Data from '@/lib/data';
+import Search from './search';
 
 export default function Header() {
   return (
