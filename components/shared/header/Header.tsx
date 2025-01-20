@@ -1,12 +1,11 @@
-import { APP_NAME } from '@/lib/Constants';
+import { APP_NAME } from '@/lib/constants';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { MenuIcon } from 'lucide-react';
-import Search from './Search';
-import Menu from './Menu';
-import Data from '@/lib/Data';
-
+import Search from './search';
+import Menu from './menu';
+import Data from '@/lib/data';
 
 export default function Header() {
   return (

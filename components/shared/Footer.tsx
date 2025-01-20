@@ -1,9 +1,9 @@
 'use client';
 
 import { ChevronUp } from 'lucide-react';
-import { Button } from '../ui/Button';
+import { Button } from '../ui/button';
 import Link from 'next/link';
-import { APP_NAME } from '@/lib/Constants';
+import { APP_NAME } from '@/lib/constants';
 
 export default function Footer() {
   return (
@@ -25,11 +25,15 @@ export default function Footer() {
           <Link href="/page/help">Help</Link>
         </div>
         <div className="flex justify-center text-sm">
-          <p> © 2020-{new Date().getFullYear()}, {APP_NAME}, Inc. or its affiliates</p>
+          <p>
+            {' '}
+            © 2020-{new Date().getFullYear()}, {APP_NAME}, Inc. or its
+            affiliates
+          </p>
         </div>
         <div className="mt-8 flex justify-center text-sm text-gray-400">
-          
-          123, Iskandar Street, Miami, Alexandria | +201093001732 | info@{APP_NAME}.com
+          123, Iskandar Street, Miami, Alexandria | +201093001732 | info@
+          {APP_NAME}.com
         </div>
       </div>
     </footer>

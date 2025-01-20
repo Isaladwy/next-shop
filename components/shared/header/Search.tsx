@@ -1,12 +1,12 @@
-import { Input } from '@/components/ui/Input';
+import { Input } from '@/components/ui/input';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/Select';
-import { APP_NAME } from '@/lib/Constants';
+} from '@/components/ui/select';
+import { APP_NAME } from '@/lib/constants';
 import { SearchIcon } from 'lucide-react';
 
 const categories = ['men', 'women', 'kids', 'accessories'];
