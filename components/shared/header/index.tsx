@@ -1,10 +1,10 @@
-import { APP_NAME } from '@/_lib/constants';
+import { APP_NAME } from '@/lib/constants';
 import Image from 'next/image';
 import Link from 'next/link';
-import Menu from '@/_components/shared/header/menu';
-import { Button } from '@/_components/ui/button';
+import Menu from '@/components/shared/header/menu';
+import { Button } from '@/components/ui/button';
 import { MenuIcon } from 'lucide-react';
-import data from '@/_lib/data';
+import data from '@/lib/data';
 import Search from './search';
 
 export default function Header() {
@@ -38,7 +38,7 @@ export default function Header() {
       <div className="flex items-center px-3 mb-[1px]  bg-gray-800">
         <Button
           variant="ghost"
-          className="header-button flex items-center gap-1 text-base [&_svg]:size-6"
+          className="dark header-button flex items-center gap-1 text-base [&_svg]:size-6"
         >
           <MenuIcon />
           All

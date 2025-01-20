@@ -1,9 +1,9 @@
 'use client';
 
 import { ChevronUp } from 'lucide-react';
-import { Button } from '@/_components/ui/button';
+import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { APP_NAME } from '@/_lib/constants';
+import { APP_NAME } from '@/lib/constants';
 
 export default function Footer() {
   return (
