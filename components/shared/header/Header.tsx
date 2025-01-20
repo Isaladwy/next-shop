@@ -3,9 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { MenuIcon } from 'lucide-react';
-import data from '@/lib/Data';
-import Search from '@/components/shared/header/Search';
-import Menu from '@/components/shared/header/Menu';
+import Search from './Search';
+import Menu from './Menu';
+import Data from '@/lib/Data';
+
 
 export default function Header() {
   return (
@@ -44,7 +45,7 @@ export default function Header() {
           All
         </Button>
         <div className="flex items-center flex-wrap gap-3 overflow-hidden   max-h-[42px]">
-          {data.headerMenus.map((menu) => (
+          {Data.headerMenus.map((menu) => (
             <Link
               href={menu.href}
               key={menu.href}
