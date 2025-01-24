@@ -10,6 +10,7 @@ export async function getAllCategories() {
   )
   return categories
 }
+
 export async function getProductsForCard({
   tag,
   limit = 4,
